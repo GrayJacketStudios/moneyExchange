@@ -2,6 +2,7 @@ var express = require('express');
 const app = express();
 const axios = require('axios');
 const cheerio = require("cheerio");
+var port = process.env.PORT || 3000;
 
 app.get('/:monedaOrigen/:valorInicial/:monedaDestino', function (req, res) {
     getConvertion(req.params.valorInicial,req.params.monedaOrigen,req.params.monedaDestino)
@@ -22,6 +23,6 @@ async function getConvertion(valorInicial, monedaOrigen, monedaDestino){
     return token[0];
 }
 
-app.listen(3000, function () {
+app.listen(port, function () {
   console.log('Example app listening on port 3000!');
 });
