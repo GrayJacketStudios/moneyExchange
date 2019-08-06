@@ -1,0 +1,24 @@
+{
+  "name": "conversor_moneda",
+  "version": "1.0.0",
+  "description": "Convierte de una moneda en especifico a otra, tomando el valor desde google",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/GrayJacketStudios/moneyExchange.git"
+  },
+  "keywords": [
+    "moneda",
+    "conversor",
+    "exchange"
+  ],
+  "author": "Sebastian Cristi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GrayJacketStudios/moneyExchange/issues"
+  },
+  "homepage": "https://github.com/GrayJacketStudios/moneyExchange#readme"
+}
