@@ -4,7 +4,8 @@
   "description": "Convierte de una moneda en especifico a otra, tomando el valor desde google",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,10 @@
   "bugs": {
     "url": "https://github.com/GrayJacketStudios/moneyExchange/issues"
   },
-  "homepage": "https://github.com/GrayJacketStudios/moneyExchange#readme"
+  "homepage": "https://github.com/GrayJacketStudios/moneyExchange#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.17.1"
+  }
 }
